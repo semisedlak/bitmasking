@@ -1,7 +1,19 @@
 Bitmasking
-========
+==========
 
 This simple library provides a set of functions for easier life when dealing with bitmasks.
+
+You can install it using composer:
+
+```shell
+$ composer require semisedlak/migratte
+```
+
+## How it works
+
+Create your own bitmask class which extends from `Semisedlak\Bitmasking\Bitmask` class. Define your bitmask constants in this class. Set the `$bitmask` property and your `$maxBits` property (in fact it means how many "settings" will you have).
+
+## Good to know
 
 When defining a bitmask constants use powers of two, e.g.:
 
