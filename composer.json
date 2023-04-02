@@ -1,0 +1,27 @@
+{
+	"name": "semisedlak/bitmasking",
+	"description": "Simple bitmasking utility",
+	"keywords": [
+		"bitmask",
+		"bitmasking"
+	],
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Milan Sedlák",
+			"email": "milan@semisedlak.com"
+		}
+	],
+	"require": {
+		"php": ">=7.4"
+	},
+	"require-dev": {
+		"phpstan/phpstan": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Semisedlak\\Bitmasking\\": "src/"
+		}
+	}
+}
